@@ -3,7 +3,21 @@ entries:
   redis-api-demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-18T11:39:50.644903903Z"
+    created: "2025-04-20T10:49:51.705820378Z"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.11.5
+    description: A Helm chart for Kubernetes
+    digest: 209830cb42be3f6ed2863276df79b334e34bb342135fda6c060dcccbb8b46978
+    name: redis-api-demo
+    type: application
+    urls:
+    - redis-api-demo-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-20T10:49:51.697116433Z"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -13,6 +27,6 @@ entries:
     name: redis-api-demo
     type: application
     urls:
-    - https://vigneshpandian.github.io/helmrepo/redis-api-demo-0.1.0.tgz
+    - redis-api-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-18T11:39:50.632955576Z"
+generated: "2025-04-20T10:49:51.684195279Z"
