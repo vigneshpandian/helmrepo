@@ -3,7 +3,7 @@ entries:
   redis-api-demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-20T10:49:51.705820378Z"
+    created: "2025-04-20T10:57:02.040618468Z"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -13,11 +13,11 @@ entries:
     name: redis-api-demo
     type: application
     urls:
-    - redis-api-demo-0.1.1.tgz
+    - https://vigneshpandian.github.io/helmrepo/redis-api-demo-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-20T10:49:51.697116433Z"
+    created: "2025-04-20T10:57:02.023444124Z"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -27,6 +27,6 @@ entries:
     name: redis-api-demo
     type: application
     urls:
-    - redis-api-demo-0.1.0.tgz
+    - https://vigneshpandian.github.io/helmrepo/redis-api-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-20T10:49:51.684195279Z"
+generated: "2025-04-20T10:57:02.003000959Z"
