@@ -3,13 +3,27 @@ entries:
   redis-api-demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-20T10:57:02.040618468Z"
+    created: "2025-04-21T06:09:35.571364505Z"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
       version: 20.11.5
     description: A Helm chart for Kubernetes
-    digest: 209830cb42be3f6ed2863276df79b334e34bb342135fda6c060dcccbb8b46978
+    digest: f40e634acc8b8481e3770931841a3e149820098754426582279f40a7eb31248d
+    name: redis-api-demo
+    type: application
+    urls:
+    - https://vigneshpandian.github.io/helmrepo/redis-api-demo-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-21T06:09:35.561121835Z"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.11.5
+    description: A Helm chart for Kubernetes
+    digest: f9bc5b6e317253916a758a6137bc80f14b573a4b6f431e18d14d9d5caec75fdd
     name: redis-api-demo
     type: application
     urls:
@@ -17,7 +31,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-20T10:57:02.023444124Z"
+    created: "2025-04-21T06:09:35.548152531Z"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -29,4 +43,4 @@ entries:
     urls:
     - https://vigneshpandian.github.io/helmrepo/redis-api-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-20T10:57:02.003000959Z"
+generated: "2025-04-21T06:09:35.536375806Z"
